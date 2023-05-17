@@ -24,7 +24,7 @@ The first filter applied is the median filter,vI used the function _medianBlur_ 
 ![Fig.4 - Median Filter](https://github.com/urbanitomm/Histogram_Equalization/blob/main/median_filter.png?raw=true)
 ### Gaussian Blur
 The Gaussian blur is the second filter, with the openCV function _GaussianBlur_ I applied the filter to the image. It's possible to regulate the filter with two parameters: the kernel size and the sigma value.
-![Fig.5 - Gaussian Filter](https://github.com/urbanitomm/Histogram_Equalization/blob/main/gaussian_filter.png?raw=true)
+![Fig.5 - Gaussian Filter](https://github.com/urbanitomm/Histogram_Equalization/blob/main/gaussian_blur.png?raw=true)
 ### Bilateral filter
 The last filter applied is the bilateral filter I used the function _bilateralFilter_ which has three parameters: the kernel size, sigma range and sigma space.
 ![Fig.6 - Bilateral Filter](https://github.com/urbanitomm/Histogram_Equalization/blob/main/bilateral_filter.png?raw=true)
