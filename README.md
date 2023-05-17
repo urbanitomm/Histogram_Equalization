@@ -1,7 +1,7 @@
 # Histogram_Equalization
 Lab for the Computer Vision exam (prof. Zanuttigh)
 
-##Histogram Equalization
+## Histogram Equalization
 
 First I uploaded the image, then using the function _split_ it was possible to divide the image in the three channel (B, G and R).
 To calculate the histograms I used the function _calcHist_ applied for each channel, and to visualize it I used the provided function _showHistogram_.
@@ -16,16 +16,16 @@ Then i merged the three channels into a new _Mat_ and displayed the image after 
 
 
 
-##Image Fitering
+## Image Fitering
 
 
-###Median filter 
+### Median filter 
 The first filter applied is the median filter,vI used the function _medianBlur_ from openCV which has only one parameter: the kernel size. A bigger kernel size leads to a more blurred image.
 ![Fig.4 - Median Filter](https://github.com/urbanitomm/Histogram_Equalization/blob/main/median_filter.png?raw=true)
- ###Gaussian Blur
+### Gaussian Blur
 The Gaussian blur is the second filter, with the openCV function _GaussianBlur_ I applied the filter to the image. It's possible to regulate the filter with two parameters: the kernel size and the sigma value.
 ![Fig.5 - Gaussian Filter](https://github.com/urbanitomm/Histogram_Equalization/blob/main/gaussian_filter.png?raw=true)
-###Bilateral filter
+### Bilateral filter
 The last filter applied is the bilateral filter I used the function _bilateralFilter_ which has three parameters: the kernel size, sigma range and sigma space.
 ![Fig.6 - Bilateral Filter](https://github.com/urbanitomm/Histogram_Equalization/blob/main/bilateral_filter.png?raw=true)
 
